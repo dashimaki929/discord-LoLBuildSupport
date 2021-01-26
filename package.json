@@ -1,0 +1,22 @@
+{
+  "name": "discord-lolbuildsupport",
+  "version": "1.0.0",
+  "description": "running on Node.js",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashimaki929/discord-LoLBuildSupport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashimaki929/discord-LoLBuildSupport/issues"
+  },
+  "homepage": "https://github.com/dashimaki929/discord-LoLBuildSupport#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
