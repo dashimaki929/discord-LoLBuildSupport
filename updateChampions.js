@@ -6,7 +6,7 @@ const Puppeteer = require("puppeteer");
   console.log(">>>> Fetching start... >>>>");
 
   const browser = await Puppeteer.launch({
-    executablePath: "/usr/bin/chromium-browser",
+    // executablePath: "/usr/bin/chromium-browser",
     defaultViewport: {
       width: 1920,
       height: 1080,
@@ -52,7 +52,7 @@ const Puppeteer = require("puppeteer");
 
     const imageElem = await element.$('[class*="image"]');
     await imageElem.screenshot({
-      path: `./img/cache/champions/${engName}.png`,
+      path: `./img/champions/${engName}.png`,
     });
   }
   console.log("<<<< Fetching finished <<<<");

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dashimaki929/discord-LoLBuildSupport#readme",
   "dependencies": {
+    "discord.js": "^12.5.1",
     "puppeteer": "^5.5.0"
   }
 }
