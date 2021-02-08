@@ -6,7 +6,7 @@ const Puppeteer = require("puppeteer");
   console.log(">>>> Fetching start... >>>>");
 
   const browser = await Puppeteer.launch({
-    // executablePath: "/usr/bin/chromium-browser",
+    executablePath: "/usr/bin/chromium-browser",
     defaultViewport: {
       width: 1920,
       height: 1080,
