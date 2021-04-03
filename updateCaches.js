@@ -36,7 +36,7 @@ async function getBuildsScreenshot(browser, engChampionName) {
 
     const element = await page.$("#content > div > div.champion-profile-content-container.content-side-padding > div > div > div.champion-profile-page > div");
     await element.screenshot({
-      path: `./img/cache/${engChampionName}.png`
+      path: `./img/cache/u.gg/${engChampionName}.png`
     });
 
     const positions = ["top", "jungle", "middle", "bottom", "support"];
