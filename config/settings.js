@@ -1,7 +1,7 @@
 module.exports = {
   Bot: {
-    id: "736260824150310924",
-    token: "NzM2MjYwODI0MTUwMzEwOTI0.XxsOUw.kQtCrqH4bqVm5KeErqQ-IzvMTyA",
+    id: "DISCORD_BOT_ID",
+    token: "DISCORD_BOT_TOKEN",
   },
   prefix: "!",
 };
